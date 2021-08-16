@@ -1,0 +1,23 @@
+I) Labware Details:
+===================
+
+#####################################################################
+######            Labware            #          Locations      ######
+#####################################################################
+1) opentrons_96_filtertiprack_200ul  #          slot:6         ######
+2) agilent_1_reservoir_290mL         #          slot:3         ######
+3) corning_96_wellplate_360ul_flat   #          slot:2         ######
+4) Opentrons Fixed Trash             #          slot:12        ######
+#####################################################################
+
+II) Operating steps for this protocol:
+======================================
+
+1) Pick up the pipette tip from the designated tip rack 'opentrons_96_filtertiprack_200ul' at slot 6.
+2) Aspirate 100uL of liquid from 'agilent_1_reservoir_290mL' at slot 3.
+3) Introduce 20uL of air gap as a sealant and to avoid any accidental spill over.
+4) Touch tip of the reservoir well to remove excess of liquid outside of the tip.
+5) Dispense 100uL of the aspirated liquid in 'corning_96_wellplate_360ul_flat' corresponding well located at slot 2.
+6) Touch tip of the reservoir well to remove excess of liquid outside of the tip.
+7) Blow out to remove any remaining liquid from the pipette.
+8) Drop the tip to 'Opentrons Fixed Trash' located at slot 12.
